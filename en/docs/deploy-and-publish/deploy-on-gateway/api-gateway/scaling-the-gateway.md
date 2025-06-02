@@ -29,7 +29,7 @@ Based on performance tests conducted at WSO2 Labs, a single Traffic Manager (TM)
 
     - Use of custom throttling policies with different criterias
 
-    - Number of APIs, Policies and Applications deployed
+    - Number of APIs, Throttling Policies and Applications deployed
 
 ### Scaling the Gateways and the Control Plane
 
