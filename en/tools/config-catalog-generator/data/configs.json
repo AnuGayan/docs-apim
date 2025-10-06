@@ -932,51 +932,6 @@
           "exampleFile": "apim.analytics.toml"
         },
         {
-            "title": "API-M Analytics - URL group configurations",
-            "options": [
-                {
-                    "name": "apim.analytics.url_group",
-                    "required": true,
-                    "description": "",
-                    "params": [
-                        {
-                            "name": "",
-                            "type": "string",
-                            "required": false,
-                            "default": "",
-                            "possible": "",
-                            "description": "Define each analytics node that the API Manager will connect to, as an array. If there are mutiple node, you need to define this configuration for each node."
-                        },
-                        {
-                            "name": "analytics_url",
-                            "type": "string",
-                            "required": true,
-                            "default": "tcp://localhost:7612",
-                            "possible": "",
-                            "description": "The list of server URLs e.g.,: analytics_url = [\"tcp: //localhost:7611, tcp://localhost:7611\"]\""
-                        },
-                        {
-                            "name": "analytics_auth_url",
-                            "type": "string",
-                            "required": true,
-                            "default": "ssl://localhost:7712",
-                            "possible": "",
-                            "description": "The list of auth server URLs e.g.,: analytics_auth_url = [\"ssl: //localhost:7711,ssl://localhost:7711\"]"
-                        },
-                        {
-                            "name": "type",
-                            "type": "string",
-                            "required": false,
-                            "default": "no default value",
-                            "possible": "loadbalance failover",
-                            "description": "Loadbalance or Failover"
-                        }
-                    ]
-                }
-            ],
-            "exampleFile": "apim.analytics.url_group.toml"
-        },
-        {
             "title": "API-M Key Manager related configurations",
             "options": [
                 {
